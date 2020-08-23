@@ -11,8 +11,15 @@ router.get('/', (req, res) => {
 
 
 router.post('/', (req, res) => {
+
+    const newProduct = {
+        name: req.body.productName,
+        price: req.body.productPrice
+    }
+
     res.json({
-        message: 'post product'
+        message: 'post product',
+        productinfo: newProduct
     })
 })
 
