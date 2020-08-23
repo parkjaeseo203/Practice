@@ -8,7 +8,7 @@ const app = express()
 
 
 // 데이터베이스 연결
-const dbAdress = "mongodb+srv://bangnany:4275@cluster0.kgd8x.mongodb.net/Shoppingmall?retryWrites=true&w=majority"
+const dbAdress = "mongodb+srv://Bangnany2:4275@cluster0.so6to.mongodb.net/Bangnany2?retryWrites=true&w=majority"
 
 const dbOptions = {
     useNewUrlParser: true,
